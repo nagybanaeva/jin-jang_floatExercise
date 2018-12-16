@@ -1,0 +1,42 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Mali', cursive;
+    background-color: beige;
+    border: 10px solid darkgrey;
+    text-align: center;
+    margin: 1.5rem;
+    padding: 1rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+
+img {
+    border: 10px solid darkgrey;
+    height: 15rem;
+    margin: 1.5rem;
+}
+
+.zebras {
+    float: left;
+}
+
+.panda {
+    float: right;
+}
+
+@media (max-width: 500px){
+.zebras, .panda {
+    float: none;
+    height: 10rem;
+    margin: 1.5rem auto 1.5rem auto;
+    }
+}
